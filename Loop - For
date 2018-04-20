@@ -3,3 +3,15 @@ cities = ['bejjing', 'wuhan', 'los angeles']
 for city in cities:
     print(city.title())
     
+#怎样用For loop来创建或修改list
+# range(start, stop, step)
+print(list(range(1,1000,50)))
+print(range(100))
+
+# iterable of colors
+colors = ['white', 'pink', 'yellow', 'blue']
+
+# for loop that iterates over the cities list
+for color in colors:
+    print(color.title())
+    
